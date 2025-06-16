@@ -1,5 +1,5 @@
 ### CONTENTS:
-- two sum
+- [two sum](https://github.com/MaryImarenezor/leet-code-problems/blob/main/algorithm%20notes.md#two-sum)
   
 
 ## two sum
