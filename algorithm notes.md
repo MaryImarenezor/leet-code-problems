@@ -34,3 +34,11 @@
 - the break and continue keywords apply to python as well, not just in c++
 - use len(x) function to get the length of the array, not .length()!!
 - the syntax error is that I don't put the variable type at the beginning (int result = [0, 0]). instead, I remove it entirely and allow the information INSIDE the array to declare its type (result = [0, 0])
+
+### Java "sticky" notes
+- i tried using a for each loop to spice up the code a bit and experiment. for loops are best used when dealing with the indexes of the arrays, while for-each is best used for dealing with the actual elements of the array. so for-each is best used for arrays and collections
+- the break/continue keywords are used all across different programs
+- the length of an array can't be changed once set!
+- the syntax for the length method in java is ".length"
+- i can access the elements of an array and change them by doing "array[i] = ...."
+- since were dealing with getting the indexes, the for each loop here may not be the most suffiecient option
