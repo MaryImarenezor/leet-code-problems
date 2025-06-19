@@ -6,6 +6,7 @@
 - INPUT: an array of ints, "nums" and an int "target"
 - OUTPUT: two numbers of the sum of "target"
 
+- initialize the result array
 - a nested for loop can go through the array
     - the outer loop would select one int from the array
     - the inner loop would go through all of the other ints in the array
@@ -15,8 +16,10 @@
     - the result would be saved in a int variable called "sum"
     - if "sum" equals "target":
         - then append the two values in another int array called "result"
-        - return "result"
+        - call the break keyword
     - if "sum" doesn't equal "target", the inner loop would move on to the next int
+    
+    - return "result"
 
 - the inner for loop would skip the int that has the same index as the outer for loop
 
@@ -25,7 +28,7 @@
 - since I'm working with vectors and not arrays, I should used the conventions for vectors. here, I'm using conventions for arrays, which is why I'm getting errors
 - I can use sum[i] for accessing elements and I wont get errors, but its better to use .at() since its secure
 - I got it!! since the function is a vector<int>, I should return a vector<int>!!
-- 
+  
 
 
 ### Python "sticky" notes
@@ -42,3 +45,8 @@
 - the syntax for the length method in java is ".length"
 - i can access the elements of an array and change them by doing "array[i] = ...."
 - since were dealing with getting the indexes, the for each loop here may not be the most suffiecient option
+
+### Javascript "sticky" notes
+- "var" is globally scoped, while "let" is locally scoped
+- i'm gonna try and use Object.is instead of "===" and see if it works
+- the reason why I'm having "time limit exceeded" errors is because there's a syntax error in my inner for loop (it was i++ instead of j++)
