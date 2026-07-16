@@ -21,4 +21,12 @@ Summer 2025 Problems:
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/MaryImarenezor/leet-code-problems/tree/master/0001-two-sum) |
+## Two Pointers
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/MaryImarenezor/leet-code-problems/tree/master/0125-valid-palindrome) |
+## String
+|  |
+| ------- |
+| [0125-valid-palindrome](https://github.com/MaryImarenezor/leet-code-problems/tree/master/0125-valid-palindrome) |
 <!---LeetCode Topics End-->
